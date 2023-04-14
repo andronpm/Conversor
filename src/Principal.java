@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
+import javax.xml.bind.ParseConversionEvent;
 
 
 public class Principal {
@@ -39,6 +40,8 @@ public class Principal {
 					
 				case "Convertidor de temperatura":
 					JOptionPane.showMessageDialog(null, "estan en contruccion");
+					
+					int temperatura = Integer.parseInt(JOptionPane.showInputDialog("digite la cantidad que va a convertir"));
 					
 				default:
 					break;
